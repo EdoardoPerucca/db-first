@@ -1,0 +1,19 @@
+id - SMALLINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+brand - VARCHAR(255) - NOT_NULL
+model - VARCHAR(255) - NOT_NULL
+registration_date - DATE - NOT_NULL
+engine_type - VARCHAR(255) - NOT_NULL
+fuel_type - VARCHAR(255) - NOT_NULL
+km_done - SMALLINT - NOT_NULL
+max_speed - SMALLINT - NULL
+external_color - VARCHAR(255) - NOT_NULL
+internal_seats_color - VARCHAR(255) - NULL
+material_seats - VARCHAR(255) - NULL
+plate - SMALLINT - UNIQUE, NOT_NULL
+frame_number - INT - VARCHAR(20) - UNIQUE, NOT_NULL
+general_condition - TEXT - NULL
+owners_number - TINYINT - NOT_NULL
+years_warranty - TINYINT - NOT_NULL
+full_price - FLOAT(8,2) - NOT_NULL
+discount_percentage - TINYINT - NULL
+price_after_discount - FLOAT(8,2) - NULL
